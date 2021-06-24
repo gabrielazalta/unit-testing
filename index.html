@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <title>Form HW</title>
+  </head>
+  <body>
+    <header role="header">
+      <h1>Welcome!</h1>
+    </header>
+      <main>
+        <form role="form">
+          <h2>Please complete the following form</h2>
+          <!-- text type -->
+          <label for="firstName">*First Name</label> <br>
+          <input type="text" id="firstName" name="firstName" required></input> <br>
+          <br>
+          <label for="lastName">*Last Name</label> <br>
+          <input type="text" id="lastName" name="lastName" required></input> 
+          <br>
+          <br>
+          <!-- passwword type -->
+          <label for="email">*Email</label> <br>
+          <input type="text" id="email" name="email" required> <br>
+          <br>
+          <label for="password">*Password</label> <br>
+          <input type="password" id="password" name="password" required>
+          <br>
+          <br>
+          <br>
+          <!-- radio type -->
+          <fieldset role="radio">
+            <legend>Which color do you like most?</legend>
+            <input type="radio" id="red" name="color" value="red">
+            <label for="red">Red</label> <br>
+            <input type="radio" id="green" name="color" value="green">
+            <label for="green">Green</label> <br>
+            <input type="radio" id="blue" name="color" value="blue">
+            <label for="blue">Blue</label> <br>
+            <input type="radio" id="yellow" name="color" value="yellow">
+            <label for="yellow">Yellow</label> <br>
+            <input type="radio" id="none" name="color" value="none">
+            <label for="none">None of the above</label> 
+          </fieldset>
+          <br>
+          <!-- checkbox type -->
+          <fieldset role="checkbox">
+            <legend>Select all fruits you enjoy</legend>
+            <input type="checkbox" id="apple" name="apple" value="apple">
+            <label for="apple">Apples</label> <br>
+            <input type="checkbox" id="grape" name="grape" value="grape">
+            <label for="grape">Grapes</label> <br>
+            <input type="checkbox" id="strawberry" name="strawberry" value="strawberry">
+            <label for="strawberry">Strawberries</label> <br>
+            <input type="checkbox" id="coconut" name="coconut" value="coconut">
+            <label for="coconut">Coconut</label> <br>
+            <input type="checkbox" id="banana" name="banana" value="banana">
+            <label for="banana">Bananas</label> 
+          </fieldset>
+          <br>
+          <br>
+          <!-- sumbit type -->
+          <input type="submit" value="Sign Up" id="submit">
+        </form>
+      </main>
+  </body>
+</html>
